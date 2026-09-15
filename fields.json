@@ -1,753 +1,1006 @@
 {
- "slug": "tropical-smoothie",
- "brand": "Tropical Smoothie Cafe",
- "field_count": 98,
- "franchiseFee": 35000,
- "totalInvestmentMin": 275500,
- "totalInvestmentMax": 770500,
- "royaltyPercent": "6%",
- "adFee": "5%",
- "totalUnits": 1651,
- "openLocations": 1651,
- "corporateCity": "Atlanta",
- "corporateState": "GA",
- "corporateZip": "30338",
- "corporateAddress": "1117 Perimeter Center West, Suite W200, Atlanta, GA 30338",
- "description": "Tropical Smoothie Cafe is a better-for-you fast-casual franchise founded in 1997 in Destin, Florida, selling handcrafted smoothies plus sandwiches, flatbreads, wraps, salads, and bowls. The franchisor, TSC Franchisor, LLC of Atlanta, Georgia, took over the system in September 2024 and is ultimately backed by investment funds affiliated with Blackstone. As of December 28, 2025 the system had 1,651 outlets (1,650 franchised, 1 company-owned) across 42 states and DC. FDD Item 19 reports average 2025 Net Revenue of $978,298 across 1,431 restaurants open at least a full year, with a top-10% average of $1,709,270.",
- "category": "Food & Beverage / Smoothie & Cafe",
- "websiteUrl": "https://www.tropicalsmoothiecafe.com/",
- "yearFounded": 1997,
- "fddYear": 2026,
- "territoryDescription": "Non-exclusive. No exclusive territory; you operate at an approved location only. Protected Area = one-half mile radius around your cafe (unavailable at Reserved Facilities). Franchisor reserves rights to own/license cafes at Reserved Facilities inside your Protected Area and to sell/distribute products under the Marks (or other marks) through any channel \u2014 grocery, retail, internet \u2014 anywhere inside or outside your Protected Area. 1,651 outlets systemwide as of 12/28/2025. (FDD Item 12, pp.42-43; Item 20, p.59)",
- "item12": "non-exclusive",
- "item20PinCount": 11,
- "item20_fdd_count": 1651,
- "item20_reconciliation": "FDD Item 20 Table No. 1 (p.59): 1,651 outlets as of 12/28/2025 (1,650 franchised + 1 company-owned). The 11 pins are a FEATURED selection \u2014 the franchisor HQ in Atlanta, GA plus one representative market in each of 10 states with confirmed 2025 Item 20 outlet counts (FL 217, TX 153, MI 124, VA 124, MD 70, OH 69, IL 68, NY 62, PA 48, NC 81) \u2014 not a census.",
- "hq_source": "FDD Item 1, p.1",
- "risk_score": 31,
- "risk_score_method": "base 20 +8 capital intensity (ceiling $770,500) +8 ongoing fee burden 11% (6% royalty + 5% marketing) +2 litigation (2 disclosed matters, both settled, none pending) +6 non-exclusive territory with Protected Area and reserved-facility/alternative-channel rights +1 renewal/modernization cost drag +2 semi-absentee model (manager-dependent, Operating Principal >=5%) +1 franchised-concentration (99.9% of 1,651 outlets franchised) -8 Item 19 strength (1,431 outlets, avg $978,298, ~87% coverage) -4 unit growth +37.8% (2023-2025) -2 audited financials (Exhibit J) -2 PE backing (Blackstone) -1 no bankruptcy disclosed = 31/100",
- "pins": [
-  {
-   "city": "Atlanta",
-   "state": "GA",
-   "kind": "hq",
-   "latitude": 33.7544657,
-   "longitude": -84.3898151,
-   "pin_source": "FDD Item 1, p.1 - franchisor HQ: 1117 Perimeter Center West, Suite W200, Atlanta, GA 30338",
-   "reverify_distance_km": 0.0,
-   "reverify_ok": true
-  },
-  {
-   "city": "Jacksonville",
-   "state": "FL",
-   "kind": "featured",
-   "latitude": 30.3262247,
-   "longitude": -81.6579179,
-   "pin_source": "FDD Item 20 Table No. 3 - 217 Florida outlets (2025); featured selection",
-   "reverify_distance_km": 0.0,
-   "reverify_ok": true
-  },
-  {
-   "city": "Dallas",
-   "state": "TX",
-   "kind": "featured",
-   "latitude": 32.7762719,
-   "longitude": -96.7968559,
-   "pin_source": "FDD Item 20 Table No. 3 - 153 Texas outlets (2025); featured selection",
-   "reverify_distance_km": 0.0,
-   "reverify_ok": true
-  },
-  {
-   "city": "Detroit",
-   "state": "MI",
-   "kind": "featured",
-   "latitude": 42.3315509,
-   "longitude": -83.0466403,
-   "pin_source": "FDD Item 20 Table No. 3 - 124 Michigan outlets (2025); featured selection",
-   "reverify_distance_km": 0.0,
-   "reverify_ok": true
-  },
-  {
-   "city": "Virginia Beach",
-   "state": "VA",
-   "kind": "featured",
-   "latitude": 36.8496579,
-   "longitude": -75.9760751,
-   "pin_source": "FDD Item 20 Table No. 3 - 124 Virginia outlets (2025); featured selection",
-   "reverify_distance_km": 0.0,
-   "reverify_ok": true
-  },
-  {
-   "city": "Baltimore",
-   "state": "MD",
-   "kind": "featured",
-   "latitude": 39.2908816,
-   "longitude": -76.610759,
-   "pin_source": "FDD Item 20 Table No. 3 - 70 Maryland outlets (2025); featured selection",
-   "reverify_distance_km": 0.0,
-   "reverify_ok": true
-  },
-  {
-   "city": "Columbus",
-   "state": "OH",
-   "kind": "featured",
-   "latitude": 39.9622601,
-   "longitude": -83.0007065,
-   "pin_source": "FDD Item 20 Table No. 3 - 69 Ohio outlets (2025); featured selection",
-   "reverify_distance_km": 0.0,
-   "reverify_ok": true
-  },
-  {
-   "city": "Chicago",
-   "state": "IL",
-   "kind": "featured",
-   "latitude": 41.8755616,
-   "longitude": -87.6244212,
-   "pin_source": "FDD Item 20 Table No. 3 - 68 Illinois outlets (2025); featured selection",
-   "reverify_distance_km": 0.0,
-   "reverify_ok": true
-  },
-  {
-   "city": "New York",
-   "state": "NY",
-   "kind": "featured",
-   "latitude": 40.7127281,
-   "longitude": -74.0060152,
-   "pin_source": "FDD Item 20 Table No. 3 - 62 New York outlets (2025); featured selection",
-   "reverify_distance_km": 0.0,
-   "reverify_ok": true
-  },
-  {
-   "city": "Philadelphia",
-   "state": "PA",
-   "kind": "featured",
-   "latitude": 39.9527237,
-   "longitude": -75.1635262,
-   "pin_source": "FDD Item 20 Table No. 3 - 48 Pennsylvania outlets (2025); featured selection",
-   "reverify_distance_km": 0.0,
-   "reverify_ok": true
-  },
-  {
-   "city": "Charlotte",
-   "state": "NC",
-   "kind": "featured",
-   "latitude": 35.2272086,
-   "longitude": -80.8430827,
-   "pin_source": "FDD Item 20 Table No. 3 \u2014 81 North Carolina outlets (2025); featured selection",
-   "reverify_distance_km": 0.0,
-   "reverify_ok": true
-  }
- ],
- "breakdown": {
-  "absolute_cited": 78,
-  "theoretical": 18,
-  "not_disclosed_verified": 2,
-  "total": 98
- },
- "fields": {
-  "franchisor_legal_name": {
-   "value": "TSC Franchisor, LLC",
-   "type": "absolute",
-   "item": "FDD Item 1, p.1",
-   "note": "cite: FDD Item 1, p.1"
-  },
-  "franchisor_entity_type": {
-   "value": "Delaware limited liability company",
-   "type": "absolute",
-   "item": "FDD Item 1, p.1",
-   "note": "cite: FDD Item 1, p.1"
-  },
-  "franchisor_formed_date": {
-   "value": "2024-07-08",
-   "type": "absolute",
-   "item": "FDD Item 1, p.1",
-   "note": "Organized July 8, 2024; became franchisor September 6, 2024 via Securitization Transaction"
-  },
-  "corporate_address": {
-   "value": "1117 Perimeter Center West, Suite W200, Atlanta, GA 30338",
-   "type": "absolute",
-   "item": "FDD Item 1, p.1",
-   "note": "cite: FDD Item 1, p.1"
-  },
-  "corporate_phone": {
-   "value": "(770) 821-1900",
-   "type": "absolute",
-   "item": "FDD cover, p.i",
-   "note": "cite: FDD cover, p.i"
-  },
-  "corporate_city": {
-   "value": "Atlanta",
-   "type": "absolute",
-   "item": "FDD Item 1, p.1",
-   "note": "cite: FDD Item 1, p.1"
-  },
-  "corporate_state": {
-   "value": "GA",
-   "type": "absolute",
-   "item": "FDD Item 1, p.1",
-   "note": "cite: FDD Item 1, p.1"
-  },
-  "corporate_zip": {
-   "value": "30338",
-   "type": "absolute",
-   "item": "FDD Item 1, p.1",
-   "note": "cite: FDD Item 1, p.1"
-  },
-  "dba_name": {
-   "value": "TROPICAL SMOOTHIE / TROPICAL SMOOTHIE CAFE",
-   "type": "absolute",
-   "item": "FDD Item 1, p.1",
-   "note": "Trade names used under corporate name"
-  },
-  "parent_chain": {
-   "value": "Peach TopCo LP (GP: Peach TopCo GP LLC) > TSC > TSC SPV Guarantor LLC > TSC SPV Funding LLC > TSC Franchisor, LLC",
-   "type": "absolute",
-   "item": "FDD Item 1, pp.1-2",
-   "note": "cite: FDD Item 1, pp.1-2"
-  },
-  "pe_backing": {
-   "value": "Blackstone \u2014 investment funds managed by affiliates of Blackstone, Inc. acquired TSC June 10, 2024",
-   "type": "absolute",
-   "item": "FDD Item 1, p.1",
-   "note": "cite: FDD Item 1, p.1"
-  },
-  "affiliates_servpro": {
-   "value": "Servpro Franchisor, LLC \u2014 SERVPRO franchises since 1977; 2,354 franchised US units as of 12/31/2025; HQ Gallatin, TN",
-   "type": "absolute",
-   "item": "FDD Item 1, p.2",
-   "note": "cite: FDD Item 1, p.2"
-  },
-  "affiliates_7brew": {
-   "value": "Brew Culture Franchise, LLC \u2014 7 BREW drive-thru coffee; 578 franchised + 24 company-owned US units as of 12/31/2025; HQ Springdale, AR",
-   "type": "absolute",
-   "item": "FDD Item 1, p.2",
-   "note": "cite: FDD Item 1, p.2"
-  },
-  "affiliates_jerseymikes": {
-   "value": "A Sub Above, LLC \u2014 Jersey Mike's restaurants since 1987; 3,201 franchised + 26 company-owned US units as of 12/28/2025; HQ Tinton Falls, NJ",
-   "type": "absolute",
-   "item": "FDD Item 1, pp.2-3",
-   "note": "cite: FDD Item 1, pp.2-3"
-  },
-  "brand_founded_year": {
-   "value": 1997,
-   "type": "absolute",
-   "item": "FDD Item 1, p.2",
-   "note": "Predecessor TSFDC offered area rights from 1997; 'Founded in 1997 in Destin, FL' (FDD text)"
-  },
-  "year_franchising_began": {
-   "value": 1997,
-   "type": "absolute",
-   "item": "FDD Item 1, p.2",
-   "note": "TSFDC area-representative rights offered 1997-2012; TSC began offering franchises 2012"
-  },
-  "business_description": {
-   "value": "Better-for-you fast-casual restaurant: premium handcrafted smoothies made with fruit and vegetables, plus specialty sandwiches, flatbreads, wraps, salads, and bowls, served in a fun, friendly environment across breakfast, lunch, and dinner dayparts.",
-   "type": "absolute",
-   "item": "FDD Item 1, p.2",
-   "note": "cite: FDD Item 1, p.2"
-  },
-  "franchise_email": {
-   "value": "franchisedevelopment@tropicalsmoothie.com",
-   "type": "absolute",
-   "item": "FDD cover, p.i",
-   "note": "cite: FDD cover, p.i"
-  },
-  "initial_franchise_fee": {
-   "value": 35000,
-   "type": "absolute",
-   "item": "FDD Item 5, p.9",
-   "note": "First restaurant $35,000; each additional restaurant $25,000; veteran VetFran discount $17,500; non-refundable"
-  },
-  "franchise_fee_refundable": {
-   "value": false,
-   "type": "absolute",
-   "item": "FDD Item 5, p.9",
-   "note": "Fully earned upon receipt, non-refundable"
-  },
-  "grand_opening_contribution": {
-   "value": 10000,
-   "type": "absolute",
-   "item": "FDD Item 5, p.9",
-   "note": "Minimum $10,000 Grand Opening Contribution for first-time developers, payable at signing"
-  },
-  "amount_to_franchisor_range": {
-   "value": "$35,000-$45,000",
-   "type": "absolute",
-   "item": "FDD cover, p.i / Item 5, p.9",
-   "note": "Cover states $45,000 payable to franchisor or affiliate (fee $35,000 + grand opening contribution $10,000)"
-  },
-  "muda_fee": {
-   "value": 25000,
-   "type": "absolute",
-   "item": "FDD cover, p.i",
-   "note": "Multi-Unit Development Addendum: $25,000 franchise fee per second and each additional unit"
-  },
-  "royalty_terms": {
-   "value": "6% of Gross Sales, payable weekly for the prior week's Gross Sales, by electronic funds transfer",
-   "type": "absolute",
-   "item": "FDD Item 6, p.10",
-   "note": "cite: FDD Item 6, p.10"
-  },
-  "marketing_fund_fee": {
-   "value": "5% of Gross Sales (franchisor may increase up to 6%)",
-   "type": "absolute",
-   "item": "FDD Item 6, p.10",
-   "note": "Current National Marketing Fee is 5%; franchisor may increase to 6% in its sole discretion"
-  },
-  "boh_fees": {
-   "value": "$145 one-time implementation + $179/month subscription",
-   "type": "absolute",
-   "item": "FDD Item 6, p.10",
-   "note": "Mandated back-of-house system; we deduct by EFT"
-  },
-  "digital_ordering_fee": {
-   "value": "$54/month",
-   "type": "absolute",
-   "item": "FDD Item 6, pp.10-11",
-   "note": "Website & mobile digital ordering services; vendor fee may change; $50/cafe transfer fee"
-  },
-  "late_fee": {
-   "value": "$25/week + 18% per annum interest (or max permitted) + $15 ACH return",
-   "type": "absolute",
-   "item": "FDD Item 6, p.11",
-   "note": "cite: FDD Item 6, p.11"
-  },
-  "noncompliance_fee": {
-   "value": "Up to $500 each default + each week it continues",
-   "type": "absolute",
-   "item": "FDD Item 6, p.11",
-   "note": "cite: FDD Item 6, p.11"
-  },
-  "investment_min": {
-   "value": 275500,
-   "type": "absolute",
-   "item": "FDD Item 7, p.18",
-   "note": "End-cap or in-line location table total low"
-  },
-  "investment_max": {
-   "value": 770500,
-   "type": "absolute",
-   "item": "FDD Item 7, p.18",
-   "note": "End-cap or in-line location table total high"
-  },
-  "equipment_low": {
-   "value": 131500,
-   "type": "absolute",
-   "item": "FDD Item 7, p.18",
-   "note": "cite: FDD Item 7, p.18"
-  },
-  "equipment_high": {
-   "value": 184000,
-   "type": "absolute",
-   "item": "FDD Item 7, p.18",
-   "note": "cite: FDD Item 7, p.18"
-  },
-  "leasehold_low": {
-   "value": 104000,
-   "type": "absolute",
-   "item": "FDD Item 7, p.18",
-   "note": "cite: FDD Item 7, p.18"
-  },
-  "leasehold_high": {
-   "value": 370000,
-   "type": "absolute",
-   "item": "FDD Item 7, p.18",
-   "note": "cite: FDD Item 7, p.18"
-  },
-  "drive_thru_addon": {
-   "value": "$40,000 to $60,000 additional for drive-thru buildout",
-   "type": "absolute",
-   "item": "FDD Item 7, p.18",
-   "note": "cite: FDD Item 7, p.18"
-  },
-  "financing_offered": {
-   "value": false,
-   "type": "absolute",
-   "item": "FDD Item 10",
-   "note": "Franchisor does not offer direct or indirect financing"
-  },
-  "territory_exclusive": {
-   "value": false,
-   "type": "absolute",
-   "item": "FDD Item 12, p.42",
-   "note": "You will not receive an exclusive territory"
-  },
-  "territory_type": {
-   "value": "non-exclusive",
-   "type": "absolute",
-   "item": "FDD Item 12, pp.42-43",
-   "note": "cite: FDD Item 12, pp.42-43"
-  },
-  "territory_size": {
-   "value": "one-half mile radius Protected Area around the cafe site (not at Reserved Facilities)",
-   "type": "absolute",
-   "item": "FDD Item 12, p.42",
-   "note": "cite: FDD Item 12, p.42"
-  },
-  "territory_minimum_sales": {
-   "value": "none",
-   "type": "absolute",
-   "item": "FDD Item 12, p.42",
-   "note": "Protected Area not dependent on sales volume, market penetration, or other contingency"
-  },
-  "franchisor_reserved_rights": {
-   "value": "Franchisor may own/operate or license Tropical Smoothie Cafe restaurants at Reserved Facilities inside your Protected Area; may sell/distribute products under the Marks or other marks through any channel (grocery, retail, internet) anywhere inside or outside your Protected Area",
-   "type": "absolute",
-   "item": "FDD Item 12, pp.42-43",
-   "note": "cite: FDD Item 12, pp.42-43"
-  },
-  "territory_relocation": {
-   "value": "Only with prior written approval; 90 days' notice; good standing required; new location within specified area; then-current agreement form",
-   "type": "absolute",
-   "item": "FDD Item 12, pp.42-43",
-   "note": "cite: FDD Item 12, pp.42-43"
-  },
-  "owner_operator_required": {
-   "value": false,
-   "type": "absolute",
-   "item": "FDD Item 15, p.48",
-   "note": "Not required to participate personally in direct operation; participation recommended"
-  },
-  "operating_principal": {
-   "value": "Entity franchisees must designate an owner Operating Principal with >=5% ownership and decision-making authority; approved by franchisor",
-   "type": "absolute",
-   "item": "FDD Item 15, p.48",
-   "note": "cite: FDD Item 15, p.48"
-  },
-  "manager_requirement": {
-   "value": "On-site supervision by owner, Operating Principal, or approved manager; both must complete initial training",
-   "type": "absolute",
-   "item": "FDD Item 15, p.48",
-   "note": "cite: FDD Item 15, p.48"
-  },
-  "franchise_term_years": {
-   "value": 15,
-   "type": "absolute",
-   "item": "FDD Item 17, p.49",
-   "note": "Length of franchise term: 15 years"
-  },
-  "renewal_term_years": {
-   "value": 10,
-   "type": "absolute",
-   "item": "FDD Item 17, p.49",
-   "note": "One additional 10-year renewal term if in good standing and conditions satisfied; no renewal fees; must sign then-current agreement form"
-  },
-  "post_term_noncompete": {
-   "value": "see Item 17/FA",
-   "type": "absolute",
-   "item": "FDD Item 17, p.49",
-   "note": "cite: FDD Item 17, p.49"
-  },
-  "dispute_resolution": {
-   "value": "see Franchise Agreement",
-   "type": "absolute",
-   "item": "FDD Item 17, pp.49-54",
-   "note": "cite: FDD Item 17, pp.49-54"
-  },
-  "franchisee_termination_right": {
-   "value": "Not applicable (subject to applicable state law)",
-   "type": "absolute",
-   "item": "FDD Item 17, p.49",
-   "note": "cite: FDD Item 17, p.49"
-  },
-  "franchisor_termination_right": {
-   "value": "Only for cause (default); 10 days to cure monetary defaults",
-   "type": "absolute",
-   "item": "FDD Item 17, p.49",
-   "note": "cite: FDD Item 17, p.49"
-  },
-  "item19_measurement_period": {
-   "value": "Calendar years 2025, 2024, 2023",
-   "type": "absolute",
-   "item": "FDD Item 19, p.55",
-   "note": "cite: FDD Item 19, p.55"
-  },
-  "item19_reporting_outlets": {
-   "value": 1431,
-   "type": "absolute",
-   "item": "FDD Item 19, p.55",
-   "note": "Restaurants open at least one full year as of CY2025 (1,268 for 2024; 1,151 for 2023); excludes non-traditional/seasonal"
-  },
-  "item19_avg_net_revenue_2025": {
-   "value": 978298,
-   "type": "absolute",
-   "item": "FDD Item 19, p.56",
-   "note": "Average 2025 Net Revenue across 1,431 restaurants"
-  },
-  "item19_median_net_revenue_2025": {
-   "value": 931173,
-   "type": "absolute",
-   "item": "FDD Item 19, p.56",
-   "note": "cite: FDD Item 19, p.56"
-  },
-  "item19_top10_avg_2025": {
-   "value": 1709270,
-   "type": "absolute",
-   "item": "FDD Item 19, p.56",
-   "note": "Top 10% average Net Revenue (144 restaurants)"
-  },
-  "item19_bottom10_avg_2025": {
-   "value": 492972,
-   "type": "absolute",
-   "item": "FDD Item 19, p.56",
-   "note": "cite: FDD Item 19, p.56"
-  },
-  "item19_range_2025": {
-   "value": "$270,301 - $3,386,973",
-   "type": "absolute",
-   "item": "FDD Item 19, p.56",
-   "note": "cite: FDD Item 19, p.56"
-  },
-  "item19_pct_met_avg_2025": {
-   "value": 45,
-   "type": "absolute",
-   "item": "FDD Item 19, p.56",
-   "note": "643 of 1,431 (45%) attained or surpassed the average"
-  },
-  "item19_avg_2024": {
-   "value": 1005063,
-   "type": "absolute",
-   "item": "FDD Item 19, p.57",
-   "note": "Average 2024 Net Revenue (1,268 restaurants)"
-  },
-  "item19_avg_2023": {
-   "value": 979491,
-   "type": "absolute",
-   "item": "FDD Item 19, p.58",
-   "note": "Average 2023 Net Revenue (1,151 restaurants)"
-  },
-  "item19_caveat": {
-   "value": "Information presented is not a forecast of future potential performance",
-   "type": "absolute",
-   "item": "FDD Item 19, p.55",
-   "note": "cite: FDD Item 19, p.55"
-  },
-  "item19_confidence": {
-   "value": "STRONG",
-   "type": "theoretical",
-   "item": "method: coverage-based",
-   "note": "n=1,431 outlets (~87% of 1,650 franchised) with average/median/quartile/range disclosure across 3 years"
-  },
-  "item20_total_2025": {
-   "value": 1651,
-   "type": "absolute",
-   "item": "FDD Item 20, p.59",
-   "note": "1,650 franchised + 1 company-owned as of December 28, 2025"
-  },
-  "item20_franchised_2025": {
-   "value": 1650,
-   "type": "absolute",
-   "item": "FDD Item 20, p.59",
-   "note": "cite: FDD Item 20, p.59"
-  },
-  "item20_company_owned_2025": {
-   "value": 1,
-   "type": "absolute",
-   "item": "FDD Item 20, p.59",
-   "note": "TSC GA's Atlanta, GA restaurant, operated since 2013"
-  },
-  "item20_total_2023_end": {
-   "value": 1372,
-   "type": "absolute",
-   "item": "FDD Item 20, p.59",
-   "note": "1,371 franchised + 1 company-owned"
-  },
-  "item20_total_2024_end": {
-   "value": 1515,
-   "type": "absolute",
-   "item": "FDD Item 20, p.59",
-   "note": "1,514 franchised + 1 company-owned"
-  },
-  "item20_net_change_2025": {
-   "value": 136,
-   "type": "absolute",
-   "item": "FDD Item 20, p.59",
-   "note": "cite: FDD Item 20, p.59"
-  },
-  "item20_net_change_2024": {
-   "value": 143,
-   "type": "absolute",
-   "item": "FDD Item 20, p.59",
-   "note": "cite: FDD Item 20, p.59"
-  },
-  "item20_net_change_2023": {
-   "value": 174,
-   "type": "absolute",
-   "item": "FDD Item 20, p.59",
-   "note": "cite: FDD Item 20, p.59"
-  },
-  "item20_top_state_fl": {
-   "value": 217,
-   "type": "absolute",
-   "item": "FDD Item 20, Table No. 3 (2025 end-of-year)",
-   "note": "Florida"
-  },
-  "item20_projected_openings": {
-   "value": "see Table No. 5",
-   "type": "absolute",
-   "item": "FDD Item 20, Table No. 5",
-   "note": "cite: FDD Item 20, Table No. 5"
-  },
-  "litigation_disclosed_count": {
-   "value": 2,
-   "type": "absolute",
-   "item": "FDD Item 3, p.8",
-   "note": "Both settled; none pending"
-  },
-  "litigation_1": {
-   "value": "JSG Management Co. v. Tropical Smoothie Cafe, LLC (AAA Atlanta, Case 01-16-0001-4215; filed 4/18/2016) \u2014 franchisee alleged ops-manual changes and fraudulent FPR; settled 11/22/2016 for $62,500 paid by TSC, no admission of liability",
-   "type": "absolute",
-   "item": "FDD Item 3, p.8",
-   "note": "cite: FDD Item 3, p.8"
-  },
-  "litigation_2": {
-   "value": "TSC Franchisor, LLC & Tropical Smoothie Cafe, LLC v. JND Tropics LLC (In re JND Tropics LLC, Bankr. D. Ariz., Case 25-bk-05356-MCW; adversary 25-ap-00197-MCW, filed 7/3/2025) \u2014 collection/enforcement after franchisee Chapter 11 (Subchapter V) filing; settled 12/31/2025 after $75,000 paid; waived post-petition accruals; cafes sold to agreeable buyer",
-   "type": "absolute",
-   "item": "FDD Item 3, p.8",
-   "note": "cite: FDD Item 3, p.8"
-  },
-  "bankruptcy_disclosed": {
-   "value": false,
-   "type": "absolute",
-   "item": "FDD Item 4, p.9",
-   "note": "No bankruptcy information required to be disclosed"
-  },
-  "litigation_risk_flag": {
-   "value": "MODERATE",
-   "type": "theoretical",
-   "item": "method: count + recency of disclosed matters",
-   "note": "2 disclosed matters, both settled; a 2025 franchisee bankruptcy case settled without merits ruling"
-  },
-  "public_figures": {
-   "value": "none",
-   "type": "absolute",
-   "item": "FDD Item 18, p.55",
-   "note": "No public figure is involved in actual management control"
-  },
-  "netWorthRequirement": {
-   "value": "not disclosed in FDD",
-   "type": "not_disclosed_verified",
-   "item": "FDD Item 7 / Item 21",
-   "note": "not disclosed in FDD \u2014 grep over source text: 0 hits for net-worth language in franchisee-requirement context (only line: generic NASAA escrow notice re unaudited financial statements < $100,000 net worth)"
-  },
-  "liquidCapitalRequirement": {
-   "value": "not disclosed in FDD",
-   "type": "not_disclosed_verified",
-   "item": "FDD Item 7 / Item 21",
-   "note": "not disclosed in FDD \u2014 grep over source text: 0 hits for 'liquid capital' anywhere"
-  },
-  "risk_score": {
-   "value": 31,
-   "type": "theoretical",
-   "item": "method: published additive weights",
-   "note": "base 20 +8 capital intensity (ceiling $770,500) +8 ongoing fee burden 11% (6% royalty + 5% marketing) +2 litigation (2 disclosed matters, both settled, none pending) +6 non-exclusive territory with Protected Area and reserved-facility/alternative-channel rights +1 renewal/modernization cost drag +2 semi-absentee model (manager-dependent, Operating Principal >=5%) +1 franchised-concentration (99.9% of 1,651 outlets franchised) -8 Item 19 strength (1,431 outlets, avg $978,298, ~87% coverage) -4 unit growth +37.8% (2023-2025) -2 audited financials (Exhibit J) -2 PE backing (Blackstone) -1 no bankruptcy disclosed = 31/100"
-  },
-  "fee_burden_ratio_pct": {
-   "value": 11.0,
-   "type": "theoretical",
-   "item": "method: royalty + ad fund",
-   "note": "6% royalty + 5% National Marketing Fee (may rise to 6%) of Gross Sales"
-  },
-  "ongoing_fee_burden_pct": {
-   "value": 11.0,
-   "type": "theoretical",
-   "item": "method: royalty + marketing",
-   "note": "same as fee burden ratio"
-  },
-  "unit_growth_2023_2025_pct": {
-   "value": 37.8,
-   "type": "theoretical",
-   "item": "method: (1651-1198)/1198",
-   "note": "Franchised 1,197 (start 2023) -> 1,650 (end 2025); total outlets 1,198 -> 1,651"
-  },
-  "item19_revenue_per_dollar_min": {
-   "value": 1.27,
-   "type": "theoretical",
-   "item": "method: avg 2025 Net Revenue / max investment",
-   "note": "Capital efficiency at investment ceiling: $1.27 revenue per invested dollar"
-  },
-  "saturation_index": {
-   "value": "see Table No. 3 per state",
-   "type": "theoretical",
-   "item": "method: outlet distribution",
-   "note": "Florida 217, Texas 153, MI/VA 124 each; 42 states + DC with outlets; 6 states at 0"
-  },
-  "match_capital_min": {
-   "value": 275500,
-   "type": "theoretical",
-   "item": "method: Item 7 low bound",
-   "note": "Minimum capital to open"
-  },
-  "match_capital_target": {
-   "value": 770500,
-   "type": "theoretical",
-   "item": "method: Item 7 high bound",
-   "note": "Full-investment ceiling (non-drive-thru end-cap/in-line)"
-  },
-  "match_experience": {
-   "value": "Not required; Operating Principal >=5% + approved manager complete training",
-   "type": "theoretical",
-   "item": "FDD Item 15, p.48",
-   "note": "method: FDD Item 15, p.48"
-  },
-  "match_operational": {
-   "value": "Semi-absentee permitted with on-site approved management",
-   "type": "theoretical",
-   "item": "FDD Item 15, p.48",
-   "note": "method: FDD Item 15, p.48"
-  },
-  "match_lifestyle": {
-   "value": "Fast-casual restaurant, all dayparts + kids menu",
-   "type": "theoretical",
-   "item": "FDD Item 1, p.2",
-   "note": "method: FDD Item 1, p.2"
-  },
-  "match_risk_appetite": {
-   "value": "risk_score 31/100 (moderate-low)",
-   "type": "theoretical",
-   "item": "published method",
-   "note": "method: published method"
-  },
-  "match_location": {
-   "value": "1,651 outlets across 42 states + DC; protected 1/2-mile radius",
-   "type": "theoretical",
-   "item": "FDD Items 12/20",
-   "note": "method: FDD Items 12/20"
-  },
-  "match_timeline": {
-   "value": "see Item 11",
-   "type": "theoretical",
-   "item": "FDD Item 11",
-   "note": "method: FDD Item 11"
-  },
-  "support_score_estimate": {
-   "value": "7/10",
-   "type": "theoretical",
-   "item": "method: Item 11 program breadth",
-   "note": "Item 11 assistance program described pp.28-41; initial training for owner + manager"
-  },
-  "estimated_payback_period": {
-   "value": "see Item 19 caveat",
-   "type": "theoretical",
-   "item": "method: not computed",
-   "note": "FDD states information is not a forecast; no payback figure published"
-  }
- },
- "extractor": "tropical-smoothie-build (MapKI brand #8 of next-20 wave, 2026-09-14)",
- "extraction_timestamp_utc": "2026-09-14T17:39:03.097274+00:00",
- "fdd_filename": "tropical-smoothie.pdf",
- "fdd_sha256": "861585e9b0139210d9dc7eb8cb2b3457df06842841479f2753d657fd9d7dde67",
- "live_url": "https://bennett-maxwell.github.io/tropical-smoothie/",
- "netWorthRequirement": "not disclosed in FDD",
- "netWorthRequirementNote": "grep over source FDD text: no net-worth language in franchisee-requirement context",
- "liquidCapitalRequirement": "not disclosed in FDD",
- "liquidCapitalRequirementNote": "grep over source FDD text: zero hits for 'liquid capital'",
- "pinVerification": {
-  "method": "D4-08 per-pin geocode re-run (Nominatim via fleet egress; independent second forward geocode per city/state; haversine vs plotted coordinate, 50 km tolerance)",
-  "run_utc": "2026-09-14T17:39:03.097274+00:00",
-  "passed": 11,
-  "total": 11
- },
- "pinsUpdatedAt": "2026-09-14T17:39:03.097274+00:00"
+  "slug": "tropical-smoothie",
+  "brand": "Tropical Smoothie Cafe",
+  "field_count": 98,
+  "franchiseFee": 35000,
+  "totalInvestmentMin": 275500,
+  "totalInvestmentMax": 770500,
+  "royaltyPercent": "6%",
+  "adFee": "5%",
+  "totalUnits": 1651,
+  "openLocations": 1651,
+  "corporateCity": "Atlanta",
+  "corporateState": "GA",
+  "corporateZip": "30338",
+  "corporateAddress": "1117 Perimeter Center West, Suite W200, Atlanta, GA 30338",
+  "description": "Tropical Smoothie Cafe is a better-for-you fast-casual franchise founded in 1997 in Destin, Florida, selling handcrafted smoothies plus sandwiches, flatbreads, wraps, salads, and bowls. The franchisor, TSC Franchisor, LLC of Atlanta, Georgia, took over the system in September 2024 and is ultimately backed by investment funds affiliated with Blackstone. As of December 28, 2025 the system had 1,651 outlets (1,650 franchised, 1 company-owned) across 42 states and DC. FDD Item 19 reports average 2025 Net Revenue of $978,298 across 1,431 restaurants open at least a full year, with a top-10% average of $1,709,270.",
+  "category": "Food & Beverage / Smoothie & Cafe",
+  "websiteUrl": "https://www.tropicalsmoothiecafe.com/",
+  "yearFounded": 1997,
+  "fddYear": 2026,
+  "territoryDescription": "Non-exclusive. No exclusive territory; you operate at an approved location only. Protected Area = one-half mile radius around your cafe (unavailable at Reserved Facilities). Franchisor reserves rights to own/license cafes at Reserved Facilities inside your Protected Area and to sell/distribute products under the Marks (or other marks) through any channel \u2014 grocery, retail, internet \u2014 anywhere inside or outside your Protected Area. 1,651 outlets systemwide as of 12/28/2025. (FDD Item 12, pp.42-43; Item 20, p.59)",
+  "item12": "non-exclusive",
+  "item20PinCount": 11,
+  "item20_fdd_count": 1651,
+  "item20_reconciliation": "FDD Item 20 Table No. 1 (p.59): 1,651 outlets as of 12/28/2025 (1,650 franchised + 1 company-owned). The 11 pins are a FEATURED selection \u2014 the franchisor HQ in Atlanta, GA plus one representative market in each of 10 states with confirmed 2025 Item 20 outlet counts (FL 217, TX 153, MI 124, VA 124, MD 70, OH 69, IL 68, NY 62, PA 48, NC 81) \u2014 not a census.",
+  "hq_source": "FDD Item 1, p.1",
+  "risk_score": 31,
+  "risk_score_method": "base 20 +8 capital intensity (ceiling $770,500) +8 ongoing fee burden 11% (6% royalty + 5% marketing) +2 litigation (2 disclosed matters, both settled, none pending) +6 non-exclusive territory with Protected Area and reserved-facility/alternative-channel rights +1 renewal/modernization cost drag +2 semi-absentee model (manager-dependent, Operating Principal >=5%) +1 franchised-concentration (99.9% of 1,651 outlets franchised) -8 Item 19 strength (1,431 outlets, avg $978,298, ~87% coverage) -4 unit growth +37.8% (2023-2025) -2 audited financials (Exhibit J) -2 PE backing (Blackstone) -1 no bankruptcy disclosed = 31/100",
+  "pins": [
+    {
+      "city": "Atlanta",
+      "state": "GA",
+      "kind": "hq",
+      "latitude": 33.7544657,
+      "longitude": -84.3898151,
+      "pin_source": "FDD Item 1, p.1 - franchisor HQ: 1117 Perimeter Center West, Suite W200, Atlanta, GA 30338",
+      "reverify_distance_km": 0.0,
+      "reverify_ok": true
+    },
+    {
+      "city": "Jacksonville",
+      "state": "FL",
+      "kind": "featured",
+      "latitude": 30.3262247,
+      "longitude": -81.6579179,
+      "pin_source": "FDD Item 20 Table No. 3 - 217 Florida outlets (2025); featured selection",
+      "reverify_distance_km": 0.0,
+      "reverify_ok": true
+    },
+    {
+      "city": "Dallas",
+      "state": "TX",
+      "kind": "featured",
+      "latitude": 32.7762719,
+      "longitude": -96.7968559,
+      "pin_source": "FDD Item 20 Table No. 3 - 153 Texas outlets (2025); featured selection",
+      "reverify_distance_km": 0.0,
+      "reverify_ok": true
+    },
+    {
+      "city": "Detroit",
+      "state": "MI",
+      "kind": "featured",
+      "latitude": 42.3315509,
+      "longitude": -83.0466403,
+      "pin_source": "FDD Item 20 Table No. 3 - 124 Michigan outlets (2025); featured selection",
+      "reverify_distance_km": 0.0,
+      "reverify_ok": true
+    },
+    {
+      "city": "Virginia Beach",
+      "state": "VA",
+      "kind": "featured",
+      "latitude": 36.8496579,
+      "longitude": -75.9760751,
+      "pin_source": "FDD Item 20 Table No. 3 - 124 Virginia outlets (2025); featured selection",
+      "reverify_distance_km": 0.0,
+      "reverify_ok": true
+    },
+    {
+      "city": "Baltimore",
+      "state": "MD",
+      "kind": "featured",
+      "latitude": 39.2908816,
+      "longitude": -76.610759,
+      "pin_source": "FDD Item 20 Table No. 3 - 70 Maryland outlets (2025); featured selection",
+      "reverify_distance_km": 0.0,
+      "reverify_ok": true
+    },
+    {
+      "city": "Columbus",
+      "state": "OH",
+      "kind": "featured",
+      "latitude": 39.9622601,
+      "longitude": -83.0007065,
+      "pin_source": "FDD Item 20 Table No. 3 - 69 Ohio outlets (2025); featured selection",
+      "reverify_distance_km": 0.0,
+      "reverify_ok": true
+    },
+    {
+      "city": "Chicago",
+      "state": "IL",
+      "kind": "featured",
+      "latitude": 41.8755616,
+      "longitude": -87.6244212,
+      "pin_source": "FDD Item 20 Table No. 3 - 68 Illinois outlets (2025); featured selection",
+      "reverify_distance_km": 0.0,
+      "reverify_ok": true
+    },
+    {
+      "city": "New York",
+      "state": "NY",
+      "kind": "featured",
+      "latitude": 40.7127281,
+      "longitude": -74.0060152,
+      "pin_source": "FDD Item 20 Table No. 3 - 62 New York outlets (2025); featured selection",
+      "reverify_distance_km": 0.0,
+      "reverify_ok": true
+    },
+    {
+      "city": "Philadelphia",
+      "state": "PA",
+      "kind": "featured",
+      "latitude": 39.9527237,
+      "longitude": -75.1635262,
+      "pin_source": "FDD Item 20 Table No. 3 - 48 Pennsylvania outlets (2025); featured selection",
+      "reverify_distance_km": 0.0,
+      "reverify_ok": true
+    },
+    {
+      "city": "Charlotte",
+      "state": "NC",
+      "kind": "featured",
+      "latitude": 35.2272086,
+      "longitude": -80.8430827,
+      "pin_source": "FDD Item 20 Table No. 3 \u2014 81 North Carolina outlets (2025); featured selection",
+      "reverify_distance_km": 0.0,
+      "reverify_ok": true
+    }
+  ],
+  "breakdown": {
+    "absolute_cited": 78,
+    "theoretical": 18,
+    "not_disclosed_verified": 2,
+    "total": 98
+  },
+  "fields": {
+    "franchisor_legal_name": {
+      "value": "TSC Franchisor, LLC",
+      "type": "absolute",
+      "item": "FDD Item 1, p.1",
+      "note": "cite: FDD Item 1, p.1"
+    },
+    "franchisor_entity_type": {
+      "value": "Delaware limited liability company",
+      "type": "absolute",
+      "item": "FDD Item 1, p.1",
+      "note": "cite: FDD Item 1, p.1"
+    },
+    "franchisor_formed_date": {
+      "value": "2024-07-08",
+      "type": "absolute",
+      "item": "FDD Item 1, p.1",
+      "note": "Organized July 8, 2024; became franchisor September 6, 2024 via Securitization Transaction"
+    },
+    "corporate_address": {
+      "value": "1117 Perimeter Center West, Suite W200, Atlanta, GA 30338",
+      "type": "absolute",
+      "item": "FDD Item 1, p.1",
+      "note": "cite: FDD Item 1, p.1"
+    },
+    "corporate_phone": {
+      "value": "(770) 821-1900",
+      "type": "absolute",
+      "item": "FDD cover, p.i",
+      "note": "cite: FDD cover, p.i"
+    },
+    "corporate_city": {
+      "value": "Atlanta",
+      "type": "absolute",
+      "item": "FDD Item 1, p.1",
+      "note": "cite: FDD Item 1, p.1"
+    },
+    "corporate_state": {
+      "value": "GA",
+      "type": "absolute",
+      "item": "FDD Item 1, p.1",
+      "note": "cite: FDD Item 1, p.1"
+    },
+    "corporate_zip": {
+      "value": "30338",
+      "type": "absolute",
+      "item": "FDD Item 1, p.1",
+      "note": "cite: FDD Item 1, p.1"
+    },
+    "dba_name": {
+      "value": "TROPICAL SMOOTHIE / TROPICAL SMOOTHIE CAFE",
+      "type": "absolute",
+      "item": "FDD Item 1, p.1",
+      "note": "Trade names used under corporate name"
+    },
+    "parent_chain": {
+      "value": "Peach TopCo LP (GP: Peach TopCo GP LLC) > TSC > TSC SPV Guarantor LLC > TSC SPV Funding LLC > TSC Franchisor, LLC",
+      "type": "absolute",
+      "item": "FDD Item 1, pp.1-2",
+      "note": "cite: FDD Item 1, pp.1-2"
+    },
+    "pe_backing": {
+      "value": "Blackstone \u2014 investment funds managed by affiliates of Blackstone, Inc. acquired TSC June 10, 2024",
+      "type": "absolute",
+      "item": "FDD Item 1, p.1",
+      "note": "cite: FDD Item 1, p.1"
+    },
+    "affiliates_servpro": {
+      "value": "Servpro Franchisor, LLC \u2014 SERVPRO franchises since 1977; 2,354 franchised US units as of 12/31/2025; HQ Gallatin, TN",
+      "type": "absolute",
+      "item": "FDD Item 1, p.2",
+      "note": "cite: FDD Item 1, p.2"
+    },
+    "affiliates_7brew": {
+      "value": "Brew Culture Franchise, LLC \u2014 7 BREW drive-thru coffee; 578 franchised + 24 company-owned US units as of 12/31/2025; HQ Springdale, AR",
+      "type": "absolute",
+      "item": "FDD Item 1, p.2",
+      "note": "cite: FDD Item 1, p.2"
+    },
+    "affiliates_jerseymikes": {
+      "value": "A Sub Above, LLC \u2014 Jersey Mike's restaurants since 1987; 3,201 franchised + 26 company-owned US units as of 12/28/2025; HQ Tinton Falls, NJ",
+      "type": "absolute",
+      "item": "FDD Item 1, pp.2-3",
+      "note": "cite: FDD Item 1, pp.2-3"
+    },
+    "brand_founded_year": {
+      "value": 1997,
+      "type": "absolute",
+      "item": "FDD Item 1, p.2",
+      "note": "Predecessor TSFDC offered area rights from 1997; 'Founded in 1997 in Destin, FL' (FDD text)"
+    },
+    "year_franchising_began": {
+      "value": 1997,
+      "type": "absolute",
+      "item": "FDD Item 1, p.2",
+      "note": "TSFDC area-representative rights offered 1997-2012; TSC began offering franchises 2012"
+    },
+    "business_description": {
+      "value": "Better-for-you fast-casual restaurant: premium handcrafted smoothies made with fruit and vegetables, plus specialty sandwiches, flatbreads, wraps, salads, and bowls, served in a fun, friendly environment across breakfast, lunch, and dinner dayparts.",
+      "type": "absolute",
+      "item": "FDD Item 1, p.2",
+      "note": "cite: FDD Item 1, p.2"
+    },
+    "franchise_email": {
+      "value": "franchisedevelopment@tropicalsmoothie.com",
+      "type": "absolute",
+      "item": "FDD cover, p.i",
+      "note": "cite: FDD cover, p.i"
+    },
+    "initial_franchise_fee": {
+      "value": 35000,
+      "type": "absolute",
+      "item": "FDD Item 5, p.9",
+      "note": "First restaurant $35,000; each additional restaurant $25,000; veteran VetFran discount $17,500; non-refundable"
+    },
+    "franchise_fee_refundable": {
+      "value": false,
+      "type": "absolute",
+      "item": "FDD Item 5, p.9",
+      "note": "Fully earned upon receipt, non-refundable"
+    },
+    "grand_opening_contribution": {
+      "value": 10000,
+      "type": "absolute",
+      "item": "FDD Item 5, p.9",
+      "note": "Minimum $10,000 Grand Opening Contribution for first-time developers, payable at signing"
+    },
+    "amount_to_franchisor_range": {
+      "value": "$35,000-$45,000",
+      "type": "absolute",
+      "item": "FDD cover, p.i / Item 5, p.9",
+      "note": "Cover states $45,000 payable to franchisor or affiliate (fee $35,000 + grand opening contribution $10,000)"
+    },
+    "muda_fee": {
+      "value": 25000,
+      "type": "absolute",
+      "item": "FDD cover, p.i",
+      "note": "Multi-Unit Development Addendum: $25,000 franchise fee per second and each additional unit"
+    },
+    "royalty_terms": {
+      "value": "6% of Gross Sales, payable weekly for the prior week's Gross Sales, by electronic funds transfer",
+      "type": "absolute",
+      "item": "FDD Item 6, p.10",
+      "note": "cite: FDD Item 6, p.10"
+    },
+    "marketing_fund_fee": {
+      "value": "5% of Gross Sales (franchisor may increase up to 6%)",
+      "type": "absolute",
+      "item": "FDD Item 6, p.10",
+      "note": "Current National Marketing Fee is 5%; franchisor may increase to 6% in its sole discretion"
+    },
+    "boh_fees": {
+      "value": "$145 one-time implementation + $179/month subscription",
+      "type": "absolute",
+      "item": "FDD Item 6, p.10",
+      "note": "Mandated back-of-house system; we deduct by EFT"
+    },
+    "digital_ordering_fee": {
+      "value": "$54/month",
+      "type": "absolute",
+      "item": "FDD Item 6, pp.10-11",
+      "note": "Website & mobile digital ordering services; vendor fee may change; $50/cafe transfer fee"
+    },
+    "late_fee": {
+      "value": "$25/week + 18% per annum interest (or max permitted) + $15 ACH return",
+      "type": "absolute",
+      "item": "FDD Item 6, p.11",
+      "note": "cite: FDD Item 6, p.11"
+    },
+    "noncompliance_fee": {
+      "value": "Up to $500 each default + each week it continues",
+      "type": "absolute",
+      "item": "FDD Item 6, p.11",
+      "note": "cite: FDD Item 6, p.11"
+    },
+    "investment_min": {
+      "value": 275500,
+      "type": "absolute",
+      "item": "FDD Item 7, p.18",
+      "note": "End-cap or in-line location table total low"
+    },
+    "investment_max": {
+      "value": 770500,
+      "type": "absolute",
+      "item": "FDD Item 7, p.18",
+      "note": "End-cap or in-line location table total high"
+    },
+    "equipment_low": {
+      "value": 131500,
+      "type": "absolute",
+      "item": "FDD Item 7, p.18",
+      "note": "cite: FDD Item 7, p.18"
+    },
+    "equipment_high": {
+      "value": 184000,
+      "type": "absolute",
+      "item": "FDD Item 7, p.18",
+      "note": "cite: FDD Item 7, p.18"
+    },
+    "leasehold_low": {
+      "value": 104000,
+      "type": "absolute",
+      "item": "FDD Item 7, p.18",
+      "note": "cite: FDD Item 7, p.18"
+    },
+    "leasehold_high": {
+      "value": 370000,
+      "type": "absolute",
+      "item": "FDD Item 7, p.18",
+      "note": "cite: FDD Item 7, p.18"
+    },
+    "drive_thru_addon": {
+      "value": "$40,000 to $60,000 additional for drive-thru buildout",
+      "type": "absolute",
+      "item": "FDD Item 7, p.18",
+      "note": "cite: FDD Item 7, p.18"
+    },
+    "financing_offered": {
+      "value": false,
+      "type": "absolute",
+      "item": "FDD Item 10",
+      "note": "Franchisor does not offer direct or indirect financing"
+    },
+    "territory_exclusive": {
+      "value": false,
+      "type": "absolute",
+      "item": "FDD Item 12, p.42",
+      "note": "You will not receive an exclusive territory"
+    },
+    "territory_type": {
+      "value": "non-exclusive",
+      "type": "absolute",
+      "item": "FDD Item 12, pp.42-43",
+      "note": "cite: FDD Item 12, pp.42-43"
+    },
+    "territory_size": {
+      "value": "one-half mile radius Protected Area around the cafe site (not at Reserved Facilities)",
+      "type": "absolute",
+      "item": "FDD Item 12, p.42",
+      "note": "cite: FDD Item 12, p.42"
+    },
+    "territory_minimum_sales": {
+      "value": "none",
+      "type": "absolute",
+      "item": "FDD Item 12, p.42",
+      "note": "Protected Area not dependent on sales volume, market penetration, or other contingency"
+    },
+    "franchisor_reserved_rights": {
+      "value": "Franchisor may own/operate or license Tropical Smoothie Cafe restaurants at Reserved Facilities inside your Protected Area; may sell/distribute products under the Marks or other marks through any channel (grocery, retail, internet) anywhere inside or outside your Protected Area",
+      "type": "absolute",
+      "item": "FDD Item 12, pp.42-43",
+      "note": "cite: FDD Item 12, pp.42-43"
+    },
+    "territory_relocation": {
+      "value": "Only with prior written approval; 90 days' notice; good standing required; new location within specified area; then-current agreement form",
+      "type": "absolute",
+      "item": "FDD Item 12, pp.42-43",
+      "note": "cite: FDD Item 12, pp.42-43"
+    },
+    "owner_operator_required": {
+      "value": false,
+      "type": "absolute",
+      "item": "FDD Item 15, p.48",
+      "note": "Not required to participate personally in direct operation; participation recommended"
+    },
+    "operating_principal": {
+      "value": "Entity franchisees must designate an owner Operating Principal with >=5% ownership and decision-making authority; approved by franchisor",
+      "type": "absolute",
+      "item": "FDD Item 15, p.48",
+      "note": "cite: FDD Item 15, p.48"
+    },
+    "manager_requirement": {
+      "value": "On-site supervision by owner, Operating Principal, or approved manager; both must complete initial training",
+      "type": "absolute",
+      "item": "FDD Item 15, p.48",
+      "note": "cite: FDD Item 15, p.48"
+    },
+    "franchise_term_years": {
+      "value": 15,
+      "type": "absolute",
+      "item": "FDD Item 17, p.49",
+      "note": "Length of franchise term: 15 years"
+    },
+    "renewal_term_years": {
+      "value": 10,
+      "type": "absolute",
+      "item": "FDD Item 17, p.49",
+      "note": "One additional 10-year renewal term if in good standing and conditions satisfied; no renewal fees; must sign then-current agreement form"
+    },
+    "post_term_noncompete": {
+      "value": "see Item 17/FA",
+      "type": "absolute",
+      "item": "FDD Item 17, p.49",
+      "note": "cite: FDD Item 17, p.49"
+    },
+    "dispute_resolution": {
+      "value": "see Franchise Agreement",
+      "type": "absolute",
+      "item": "FDD Item 17, pp.49-54",
+      "note": "cite: FDD Item 17, pp.49-54"
+    },
+    "franchisee_termination_right": {
+      "value": "Not applicable (subject to applicable state law)",
+      "type": "absolute",
+      "item": "FDD Item 17, p.49",
+      "note": "cite: FDD Item 17, p.49"
+    },
+    "franchisor_termination_right": {
+      "value": "Only for cause (default); 10 days to cure monetary defaults",
+      "type": "absolute",
+      "item": "FDD Item 17, p.49",
+      "note": "cite: FDD Item 17, p.49"
+    },
+    "item19_measurement_period": {
+      "value": "Calendar years 2025, 2024, 2023",
+      "type": "absolute",
+      "item": "FDD Item 19, p.55",
+      "note": "cite: FDD Item 19, p.55"
+    },
+    "item19_reporting_outlets": {
+      "value": 1431,
+      "type": "absolute",
+      "item": "FDD Item 19, p.55",
+      "note": "Restaurants open at least one full year as of CY2025 (1,268 for 2024; 1,151 for 2023); excludes non-traditional/seasonal"
+    },
+    "item19_avg_net_revenue_2025": {
+      "value": 978298,
+      "type": "absolute",
+      "item": "FDD Item 19, p.56",
+      "note": "Average 2025 Net Revenue across 1,431 restaurants"
+    },
+    "item19_median_net_revenue_2025": {
+      "value": 931173,
+      "type": "absolute",
+      "item": "FDD Item 19, p.56",
+      "note": "cite: FDD Item 19, p.56"
+    },
+    "item19_top10_avg_2025": {
+      "value": 1709270,
+      "type": "absolute",
+      "item": "FDD Item 19, p.56",
+      "note": "Top 10% average Net Revenue (144 restaurants)"
+    },
+    "item19_bottom10_avg_2025": {
+      "value": 492972,
+      "type": "absolute",
+      "item": "FDD Item 19, p.56",
+      "note": "cite: FDD Item 19, p.56"
+    },
+    "item19_range_2025": {
+      "value": "$270,301 - $3,386,973",
+      "type": "absolute",
+      "item": "FDD Item 19, p.56",
+      "note": "cite: FDD Item 19, p.56"
+    },
+    "item19_pct_met_avg_2025": {
+      "value": 45,
+      "type": "absolute",
+      "item": "FDD Item 19, p.56",
+      "note": "643 of 1,431 (45%) attained or surpassed the average"
+    },
+    "item19_avg_2024": {
+      "value": 1005063,
+      "type": "absolute",
+      "item": "FDD Item 19, p.57",
+      "note": "Average 2024 Net Revenue (1,268 restaurants)"
+    },
+    "item19_avg_2023": {
+      "value": 979491,
+      "type": "absolute",
+      "item": "FDD Item 19, p.58",
+      "note": "Average 2023 Net Revenue (1,151 restaurants)"
+    },
+    "item19_caveat": {
+      "value": "Information presented is not a forecast of future potential performance",
+      "type": "absolute",
+      "item": "FDD Item 19, p.55",
+      "note": "cite: FDD Item 19, p.55"
+    },
+    "item19_confidence": {
+      "value": "STRONG",
+      "type": "theoretical",
+      "item": "method: coverage-based",
+      "note": "n=1,431 outlets (~87% of 1,650 franchised) with average/median/quartile/range disclosure across 3 years"
+    },
+    "item20_total_2025": {
+      "value": 1651,
+      "type": "absolute",
+      "item": "FDD Item 20, p.59",
+      "note": "1,650 franchised + 1 company-owned as of December 28, 2025"
+    },
+    "item20_franchised_2025": {
+      "value": 1650,
+      "type": "absolute",
+      "item": "FDD Item 20, p.59",
+      "note": "cite: FDD Item 20, p.59"
+    },
+    "item20_company_owned_2025": {
+      "value": 1,
+      "type": "absolute",
+      "item": "FDD Item 20, p.59",
+      "note": "TSC GA's Atlanta, GA restaurant, operated since 2013"
+    },
+    "item20_total_2023_end": {
+      "value": 1372,
+      "type": "absolute",
+      "item": "FDD Item 20, p.59",
+      "note": "1,371 franchised + 1 company-owned"
+    },
+    "item20_total_2024_end": {
+      "value": 1515,
+      "type": "absolute",
+      "item": "FDD Item 20, p.59",
+      "note": "1,514 franchised + 1 company-owned"
+    },
+    "item20_net_change_2025": {
+      "value": 136,
+      "type": "absolute",
+      "item": "FDD Item 20, p.59",
+      "note": "cite: FDD Item 20, p.59"
+    },
+    "item20_net_change_2024": {
+      "value": 143,
+      "type": "absolute",
+      "item": "FDD Item 20, p.59",
+      "note": "cite: FDD Item 20, p.59"
+    },
+    "item20_net_change_2023": {
+      "value": 174,
+      "type": "absolute",
+      "item": "FDD Item 20, p.59",
+      "note": "cite: FDD Item 20, p.59"
+    },
+    "item20_top_state_fl": {
+      "value": 217,
+      "type": "absolute",
+      "item": "FDD Item 20, Table No. 3 (2025 end-of-year)",
+      "note": "Florida"
+    },
+    "item20_projected_openings": {
+      "value": "see Table No. 5",
+      "type": "absolute",
+      "item": "FDD Item 20, Table No. 5",
+      "note": "cite: FDD Item 20, Table No. 5"
+    },
+    "litigation_disclosed_count": {
+      "value": 2,
+      "type": "absolute",
+      "item": "FDD Item 3, p.8",
+      "note": "Both settled; none pending"
+    },
+    "litigation_1": {
+      "value": "JSG Management Co. v. Tropical Smoothie Cafe, LLC (AAA Atlanta, Case 01-16-0001-4215; filed 4/18/2016) \u2014 franchisee alleged ops-manual changes and fraudulent FPR; settled 11/22/2016 for $62,500 paid by TSC, no admission of liability",
+      "type": "absolute",
+      "item": "FDD Item 3, p.8",
+      "note": "cite: FDD Item 3, p.8"
+    },
+    "litigation_2": {
+      "value": "TSC Franchisor, LLC & Tropical Smoothie Cafe, LLC v. JND Tropics LLC (In re JND Tropics LLC, Bankr. D. Ariz., Case 25-bk-05356-MCW; adversary 25-ap-00197-MCW, filed 7/3/2025) \u2014 collection/enforcement after franchisee Chapter 11 (Subchapter V) filing; settled 12/31/2025 after $75,000 paid; waived post-petition accruals; cafes sold to agreeable buyer",
+      "type": "absolute",
+      "item": "FDD Item 3, p.8",
+      "note": "cite: FDD Item 3, p.8"
+    },
+    "bankruptcy_disclosed": {
+      "value": false,
+      "type": "absolute",
+      "item": "FDD Item 4, p.9",
+      "note": "No bankruptcy information required to be disclosed"
+    },
+    "litigation_risk_flag": {
+      "value": "MODERATE",
+      "type": "theoretical",
+      "item": "method: count + recency of disclosed matters",
+      "note": "2 disclosed matters, both settled; a 2025 franchisee bankruptcy case settled without merits ruling"
+    },
+    "public_figures": {
+      "value": "none",
+      "type": "absolute",
+      "item": "FDD Item 18, p.55",
+      "note": "No public figure is involved in actual management control"
+    },
+    "netWorthRequirement": {
+      "value": "not disclosed in FDD",
+      "type": "not_disclosed_verified",
+      "item": "FDD Item 7 / Item 21",
+      "note": "not disclosed in FDD \u2014 grep over source text: 0 hits for net-worth language in franchisee-requirement context (only line: generic NASAA escrow notice re unaudited financial statements < $100,000 net worth)"
+    },
+    "liquidCapitalRequirement": {
+      "value": "not disclosed in FDD",
+      "type": "not_disclosed_verified",
+      "item": "FDD Item 7 / Item 21",
+      "note": "not disclosed in FDD \u2014 grep over source text: 0 hits for 'liquid capital' anywhere"
+    },
+    "risk_score": {
+      "value": 31,
+      "type": "theoretical",
+      "item": "method: published additive weights",
+      "note": "base 20 +8 capital intensity (ceiling $770,500) +8 ongoing fee burden 11% (6% royalty + 5% marketing) +2 litigation (2 disclosed matters, both settled, none pending) +6 non-exclusive territory with Protected Area and reserved-facility/alternative-channel rights +1 renewal/modernization cost drag +2 semi-absentee model (manager-dependent, Operating Principal >=5%) +1 franchised-concentration (99.9% of 1,651 outlets franchised) -8 Item 19 strength (1,431 outlets, avg $978,298, ~87% coverage) -4 unit growth +37.8% (2023-2025) -2 audited financials (Exhibit J) -2 PE backing (Blackstone) -1 no bankruptcy disclosed = 31/100"
+    },
+    "fee_burden_ratio_pct": {
+      "value": 11.0,
+      "type": "theoretical",
+      "item": "method: royalty + ad fund",
+      "note": "6% royalty + 5% National Marketing Fee (may rise to 6%) of Gross Sales"
+    },
+    "ongoing_fee_burden_pct": {
+      "value": 11.0,
+      "type": "theoretical",
+      "item": "method: royalty + marketing",
+      "note": "same as fee burden ratio"
+    },
+    "unit_growth_2023_2025_pct": {
+      "value": 37.8,
+      "type": "theoretical",
+      "item": "method: (1651-1198)/1198",
+      "note": "Franchised 1,197 (start 2023) -> 1,650 (end 2025); total outlets 1,198 -> 1,651"
+    },
+    "item19_revenue_per_dollar_min": {
+      "value": 1.27,
+      "type": "theoretical",
+      "item": "method: avg 2025 Net Revenue / max investment",
+      "note": "Capital efficiency at investment ceiling: $1.27 revenue per invested dollar"
+    },
+    "saturation_index": {
+      "value": "see Table No. 3 per state",
+      "type": "theoretical",
+      "item": "method: outlet distribution",
+      "note": "Florida 217, Texas 153, MI/VA 124 each; 42 states + DC with outlets; 6 states at 0"
+    },
+    "match_capital_min": {
+      "value": 275500,
+      "type": "theoretical",
+      "item": "method: Item 7 low bound",
+      "note": "Minimum capital to open"
+    },
+    "match_capital_target": {
+      "value": 770500,
+      "type": "theoretical",
+      "item": "method: Item 7 high bound",
+      "note": "Full-investment ceiling (non-drive-thru end-cap/in-line)"
+    },
+    "match_experience": {
+      "value": "Not required; Operating Principal >=5% + approved manager complete training",
+      "type": "theoretical",
+      "item": "FDD Item 15, p.48",
+      "note": "method: FDD Item 15, p.48"
+    },
+    "match_operational": {
+      "value": "Semi-absentee permitted with on-site approved management",
+      "type": "theoretical",
+      "item": "FDD Item 15, p.48",
+      "note": "method: FDD Item 15, p.48"
+    },
+    "match_lifestyle": {
+      "value": "Fast-casual restaurant, all dayparts + kids menu",
+      "type": "theoretical",
+      "item": "FDD Item 1, p.2",
+      "note": "method: FDD Item 1, p.2"
+    },
+    "match_risk_appetite": {
+      "value": "risk_score 31/100 (moderate-low)",
+      "type": "theoretical",
+      "item": "published method",
+      "note": "method: published method"
+    },
+    "match_location": {
+      "value": "1,651 outlets across 42 states + DC; protected 1/2-mile radius",
+      "type": "theoretical",
+      "item": "FDD Items 12/20",
+      "note": "method: FDD Items 12/20"
+    },
+    "match_timeline": {
+      "value": "see Item 11",
+      "type": "theoretical",
+      "item": "FDD Item 11",
+      "note": "method: FDD Item 11"
+    },
+    "support_score_estimate": {
+      "value": "7/10",
+      "type": "theoretical",
+      "item": "method: Item 11 program breadth",
+      "note": "Item 11 assistance program described pp.28-41; initial training for owner + manager"
+    },
+    "estimated_payback_period": {
+      "value": "see Item 19 caveat",
+      "type": "theoretical",
+      "item": "method: not computed",
+      "note": "FDD states information is not a forecast; no payback figure published"
+    },
+    "pinVerification": {
+      "run_at": "2026-09-14T22:11:33Z",
+      "all_verified": true,
+      "pins_total": 11
+    },
+    "pinsUpdatedAt": "2026-09-14T22:11:33Z"
+  },
+  "extractor": "tropical-smoothie-build (MapKI brand #8 of next-20 wave, 2026-09-14)",
+  "extraction_timestamp_utc": "2026-09-14T17:39:03.097274+00:00",
+  "fdd_filename": "tropical-smoothie.pdf",
+  "fdd_sha256": "861585e9b0139210d9dc7eb8cb2b3457df06842841479f2753d657fd9d7dde67",
+  "live_url": "https://bennett-maxwell.github.io/tropical-smoothie/",
+  "netWorthRequirement": "not disclosed in FDD",
+  "netWorthRequirementNote": "grep over source FDD text: no net-worth language in franchisee-requirement context",
+  "liquidCapitalRequirement": "not disclosed in FDD",
+  "liquidCapitalRequirementNote": "grep over source FDD text: zero hits for 'liquid capital'",
+  "pinVerification": {
+    "method": "D4-08 per-pin re-verification: independent Nominatim forward-geocode of each pin's (city, state); haversine vs stored plotted coords; 50km tolerance",
+    "run_utc": "2026-09-15T02:03:42.333740+00:00",
+    "pins_total": 11,
+    "pins_verified": 11,
+    "pins_mismatch": 0,
+    "pins_unverifiable": 0,
+    "all_verified": true,
+    "per_pin": [
+      {
+        "pin": 0,
+        "city": "Atlanta",
+        "state": "GA",
+        "stored": [
+          33.7544657,
+          -84.3898151
+        ],
+        "geocoded": [
+          33.754466,
+          -84.389815
+        ],
+        "geocode_query": "Atlanta, Georgia, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 1,
+        "city": "Jacksonville",
+        "state": "FL",
+        "stored": [
+          30.3262247,
+          -81.6579179
+        ],
+        "geocoded": [
+          30.326225,
+          -81.657918
+        ],
+        "geocode_query": "Jacksonville, Florida, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 2,
+        "city": "Dallas",
+        "state": "TX",
+        "stored": [
+          32.7762719,
+          -96.7968559
+        ],
+        "geocoded": [
+          32.776272,
+          -96.796856
+        ],
+        "geocode_query": "Dallas, Texas, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 3,
+        "city": "Detroit",
+        "state": "MI",
+        "stored": [
+          42.3315509,
+          -83.0466403
+        ],
+        "geocoded": [
+          42.331551,
+          -83.04664
+        ],
+        "geocode_query": "Detroit, Michigan, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 4,
+        "city": "Virginia Beach",
+        "state": "VA",
+        "stored": [
+          36.8496579,
+          -75.9760751
+        ],
+        "geocoded": [
+          36.849658,
+          -75.976075
+        ],
+        "geocode_query": "Virginia Beach, Virginia, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 5,
+        "city": "Baltimore",
+        "state": "MD",
+        "stored": [
+          39.2908816,
+          -76.610759
+        ],
+        "geocoded": [
+          39.290882,
+          -76.610759
+        ],
+        "geocode_query": "Baltimore, Maryland, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 6,
+        "city": "Columbus",
+        "state": "OH",
+        "stored": [
+          39.9622601,
+          -83.0007065
+        ],
+        "geocoded": [
+          39.96226,
+          -83.000707
+        ],
+        "geocode_query": "Columbus, Ohio, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 7,
+        "city": "Chicago",
+        "state": "IL",
+        "stored": [
+          41.8755616,
+          -87.6244212
+        ],
+        "geocoded": [
+          41.875562,
+          -87.624421
+        ],
+        "geocode_query": "Chicago, Illinois, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 8,
+        "city": "New York",
+        "state": "NY",
+        "stored": [
+          40.7127281,
+          -74.0060152
+        ],
+        "geocoded": [
+          40.712728,
+          -74.006015
+        ],
+        "geocode_query": "New York, New York, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 9,
+        "city": "Philadelphia",
+        "state": "PA",
+        "stored": [
+          39.9527237,
+          -75.1635262
+        ],
+        "geocoded": [
+          39.952724,
+          -75.163526
+        ],
+        "geocode_query": "Philadelphia, Pennsylvania, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 10,
+        "city": "Charlotte",
+        "state": "NC",
+        "stored": [
+          35.2272086,
+          -80.8430827
+        ],
+        "geocoded": [
+          35.227209,
+          -80.843083
+        ],
+        "geocode_query": "Charlotte, North Carolina, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      }
+    ]
+  },
+  "pinsUpdatedAt": "2026-09-15T02:03:42.333740+00:00",
+  "risk_method": "base 20 + capital_intensity 8 + ongoing_fee_burden 8 + litigation 2 + non_exclusive_territory 6 + renewal_cost_drag 1 + semi_absentee_model 2 + franchised_concentration 1 - item19_strength 8 - unit_growth 4 - audited_financials 2 - pe_backing 2 - no_bankruptcy 1 = 31",
+  "risk_components": [
+    {
+      "name": "capital_intensity",
+      "weight": 8,
+      "note": "ceiling $770,500 (FDD Item 7)"
+    },
+    {
+      "name": "ongoing_fee_burden",
+      "weight": 8,
+      "note": "11% (6% royalty + 5% marketing; FDD Item 6)"
+    },
+    {
+      "name": "litigation",
+      "weight": 2,
+      "note": "2 disclosed matters, both settled, none pending (FDD Item 3)"
+    },
+    {
+      "name": "non_exclusive_territory",
+      "weight": 6,
+      "note": "non-exclusive territory with Protected Area and reserved-facility/alternative-channel rights (FDD Item 12)"
+    },
+    {
+      "name": "renewal_cost_drag",
+      "weight": 1,
+      "note": "FDD Item 17"
+    },
+    {
+      "name": "semi_absentee_model",
+      "weight": 2,
+      "note": "manager-dependent, Operating Principal >=5% (FDD Item 15)"
+    },
+    {
+      "name": "franchised_concentration",
+      "weight": 1,
+      "note": "99.9% of 1,651 outlets franchised (FDD Item 20)"
+    },
+    {
+      "name": "item19_strength",
+      "weight": -8,
+      "note": "1,431 outlets, avg $978,298, ~87% coverage (FDD Item 19)"
+    },
+    {
+      "name": "unit_growth",
+      "weight": -4,
+      "note": "+37.8% 2023-2025 (FDD Item 20)"
+    },
+    {
+      "name": "audited_financials",
+      "weight": -2,
+      "note": "audited financials (Exhibit J; FDD Item 21)"
+    },
+    {
+      "name": "pe_backing",
+      "weight": -2,
+      "note": "Blackstone (FDD Item 1)"
+    },
+    {
+      "name": "no_bankruptcy",
+      "weight": -1,
+      "note": "no bankruptcy disclosed (FDD Item 4)"
+    }
+  ],
+  "risk_source": "page Method text",
+  "logoUrl": "https://www.tropicalsmoothiecafe.com/assets/icons/logo%203.svg",
+  "logoUrl_verified_2026_09_14": "HEAD/GET 200, content-type image/*"
 }
